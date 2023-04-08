@@ -1,0 +1,22 @@
+{
+  "name": "islambaraka90/pinecone-php-client",
+  "description": "A PHP client for connecting to Pinecone DB",
+  "type": "library",
+  "keywords": ["pinecone", "database", "client"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Islam Baraka",
+      "email": "islam.baraka.90@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "7.3||^8.0",
+    "guzzlehttp/guzzle": "^7.5.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Islambaraka90\\PineconePhpClient\\": "src/"
+    }
+  }
+}

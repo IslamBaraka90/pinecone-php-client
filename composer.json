@@ -12,7 +12,8 @@
   ],
   "require": {
     "php": "7.3||^8.0",
-    "guzzlehttp/guzzle": "^7.5.0"
+    "guzzlehttp/guzzle": "^7.5.0",
+    "vlucas/phpdotenv": "^5.5"
   },
   "autoload": {
     "psr-4": {
